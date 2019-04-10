@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      
+    </head>
+    
+    <body>
+      <div class="navbar">
+        <a href="index.html">Visualization Dashboard</a>
+       <ul>
+        <div class="dropdown">
+          <button class="dropbtn" >Plots 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="latitude-vs-max-temp.html">Plot 1</a>
+            <a href="latitude-vs-humidity.html">plot 2</a>
+            <a href="latitude-vs-cloudiness.html">Plot 3</a>
+            <a href="latitude-vs-wind-speed.html">Plot 3</a>
+          </div>
+        </div> 
+        <a href="comparison.html" >Comparison</a>
+        <a href="raw-data.html">Raw data</a>
+      </ul>
+      </div>
+    
+
+    <div class="container">
+
+            <div class="container-fluid">
+                    <h1>Visualization Comparison</h1>
+                    <p>On this page we are combinging the 4 previous graphs on one page for comparison</p>
+                    <p>On large screens each row will have two graphs. Smaller screens will have one. resize the browser window to see the effect.</p>
+                    
+                    <div class="row">
+                      <div class="col-sm-3 col-md-6 col-lg-6" >
+                            <h2>City Latitude vs. Max temp</h2>
+                            <p>Studying the corolation between city's latitude and Max temp </p>
+                            <img class="img-responsive" src="Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
+                      </div>
+                      <div class="col-sm-3 col-md-6 col-lg-6" >
+                            <h2>City Latitude vs. humidity</h2>
+                            <p>Studying the corolation between city's latitude and humidity </p>
+                            <img class="img-responsive" src="Resources\assets\images\Fig2.png" alt="City Latitude vs. Max Temp">                      </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-sm-3 col-md-6 col-lg-6" >
+                                  <h2>City Latitude vs. cloudiness</h2>
+                                  <p>Studying the corolation between city's latitude and cloudiness </p>
+                                  <img class="img-responsive" src="Resources\assets\images\Fig3.png" alt="City Latitude vs. Max Temp">
+                            </div>
+                            <div class="col-sm-3 col-md-6 col-lg-6" >
+                                  <h2>City Latitude vs. wind speed</h2>
+                                  <p>Studying the corolation between city's latitude and wind speed </p>
+                                  <img class="img-responsive" src="Resources\assets\images\Fig4.png" alt="City Latitude vs. Max Temp">                      </div>
+                          </div>
+                  </div>
+
+
+
+     
+
+      <footer>
+        <p>&copy; Ahmed Ibrahim 2019</p>
+      </footer>
+    </div>    
+
+
+        
+    </body>
+</html>
